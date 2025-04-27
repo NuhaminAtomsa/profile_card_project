@@ -1,0 +1,38 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+.card{
+    border:2px solid #ccc;
+    width:300px;
+    height:300px;
+    background-color:rgb(216, 224, 227) ;
+    padding: 20px;
+    margin: 50 px auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+.card img{
+    border:2px solid #4CAF50;
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+}
+.card h2{
+    color: #333;
+    margin: 10px 0;
+}
+.card p{
+    color: #666;
+}
+.card a{
+    display:inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+.card a:hover{
+color:#388E3C;
+}
